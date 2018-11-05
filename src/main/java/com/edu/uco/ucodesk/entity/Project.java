@@ -19,7 +19,7 @@ public class Project implements Serializable {
 	@Id
 	@Column (name = "ID_PROJECT", nullable = false)
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
-	private Integer idProject;
+	private int idProject;
 	
 	@Column (name = "NAME", nullable = false)
 	private String name;

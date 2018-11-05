@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 import com.edu.uco.ucodesk.entity.Task;
 import com.edu.uco.ucodesk.entity.User;
 
-@Repository
 public interface TaskRepository {
 	public Task save(Task task);
 	public Task delete(Task task);
